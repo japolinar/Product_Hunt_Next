@@ -39,7 +39,7 @@ const CreadorProducto = styled.p`
 `;
 
 const Producto = () => {
-  //State del componete
+  //State del componente
   const [producto, setProducto] = useState({});    
   const [error, setError] = useState(false);
   const [comentario, setComentario] = useState({});

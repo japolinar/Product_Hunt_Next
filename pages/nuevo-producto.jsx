@@ -90,7 +90,7 @@ const NuevoProducto = () => {
     // Se obtiene referencia de la ubicación donde se guardará la imagen
     const file = e.target.files[0];
     const imageRef = ref(firebase.storage, 'productos/' + file.name);
-    //console.log(file.name);
+    console.log(file.name);
 
     // Se inicia la subida
     setUploading(true);
